@@ -17,8 +17,8 @@ class OnboardingView extends StatelessWidget {
           children: [
             Image.asset(
               'assets/images/onboarding.png',
-              height: context.screenHeight * 0.3,
-              width: context.screenWidth * 0.64,
+              height: context.screenHeight * 0.4,
+              width: context.screenWidth * 0.77,
               fit: BoxFit.scaleDown,
             ),
             const Text(
@@ -30,7 +30,7 @@ class OnboardingView extends StatelessWidget {
                 fontFamily: "Poppins",
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
             const Text(
               'A podcast is an episodic series of spoken word digital audio files that a user can download to a personal device for easy listening.',
               style: TextStyle(

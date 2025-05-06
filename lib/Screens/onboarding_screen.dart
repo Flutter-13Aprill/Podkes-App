@@ -67,8 +67,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           children: [
             SizedBox(height: context.screenHeight * 0.06),
             SizedBox(
-              height: context.screenHeight * 0.57,
-              width: context.screenWidth * 0.64,
+              height: context.screenHeight * 0.7,
+              width: context.screenWidth * 0.77,
               child: PageView(
                 controller: _pageController,
 
