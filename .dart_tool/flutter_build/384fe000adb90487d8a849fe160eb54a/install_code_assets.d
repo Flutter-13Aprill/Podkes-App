@@ -1,0 +1,1 @@
+ /Users/solym/src/projects/may6th/Podkes-App/.dart_tool/flutter_build/384fe000adb90487d8a849fe160eb54a/native_assets.json: 
