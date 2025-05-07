@@ -1,57 +1,67 @@
-# 🎧 Podkes App
+# 🎧Podkes App
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
+# Project description
 
-## 📌 Objective
-
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
-
----
-
-## 🎨 Figma UI Design
-
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+Flutter-based mobile application designed for podcast enthusiasts, offering a user-friendly interface to explore, listen to, and manage podcasts across various genres. It features a bottom navigation bar for easy access to sections like Discover, Library, and Profile, along with a search bar for quick podcast searches. Users can view recently played episodes, create and manage playlists, and customize their profiles. The Now Playing screen showcases the currently playing podcast with album art and audio controls. With visually appealing loading indicators and a focus on seamless navigation, Podkes enhances the overall podcast listening experience for users of all ages.
 
 
----
+# 🎨Setup instructions
 
-## 🔧 Key Features to Implement
+1-Clone the repository Through commands line:git clone Your Own path
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
+2-Install dependencies Make sure you have Flutter installed. Then run:flutter pub get
 
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
+3-Run the app You can launch the app using. Then run: flutter run
 
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+Note: You need a working emulator or a connected real device.
 
----
 
-## 📂 Submission Guidelines
+# 🎯Design Objectives
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+✅ Deliver a visually appealing, clutter-free UI
 
----
+✅ Ensure consistent spacing, font sizing, and component alignment
 
-## ⏳ Deadline
+✅ Prioritize fast and fluid navigation
 
-> Submit by **[May 8]** before **10:00 AM**
+✅ Optimize for both usability and visual engagement
 
----
+✅ Design scalable components for future feature additions
 
-## ✨ Reminder
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
+# Demo Podkes App
 
----
 
+![alt text](ScreenShout/Demo.mp4)
+
+
+ # 📱Screen Design Overview
+ 
+
+# Started Screen
+![alt text](ScreenShout/image1.png)
+
+
+
+# Explore  & Main Navigation Screen
+
+![alt text](ScreenShout/image2.png)
+
+
+# Author Music Screen
+
+![alt text](ScreenShout/image3.png)
+
+
+# Library Screen
+
+
+![alt text](ScreenShout/image4.png)
+
+# Profile  Screen
+
+![alt text](ScreenShout/image5.png)
+
+# Logout  Alert
+
+![alt text](ScreenShout/image6.png)
