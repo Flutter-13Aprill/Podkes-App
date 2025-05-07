@@ -29,10 +29,6 @@ Note: You need a working emulator or a connected real device.
 ✅ Design scalable components for future feature additions
 
 
-# Demo Podkes App
-
-
-![alt text](ScreenShout/Demo.mp4)
 
 
  # 📱Screen Design Overview
