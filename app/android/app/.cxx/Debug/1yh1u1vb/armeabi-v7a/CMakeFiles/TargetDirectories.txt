@@ -1,0 +1,2 @@
+D:/tuwaiq/assiments/Podkes-App/app/android/app/.cxx/Debug/1yh1u1vb/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/tuwaiq/assiments/Podkes-App/app/android/app/.cxx/Debug/1yh1u1vb/armeabi-v7a/CMakeFiles/rebuild_cache.dir
