@@ -5,7 +5,7 @@
 Flutter-based mobile application designed for podcast enthusiasts, offering a user-friendly interface to explore, listen to, and manage podcasts across various genres. It features a bottom navigation bar for easy access to sections like Discover, Library, and Profile, along with a search bar for quick podcast searches. Users can view recently played episodes, create and manage playlists, and customize their profiles. The Now Playing screen showcases the currently playing podcast with album art and audio controls. With visually appealing loading indicators and a focus on seamless navigation, Podkes enhances the overall podcast listening experience for users of all ages.
 
 
-# 🎨Setup instructions
+## 🎨Setup instructions
 
 1-Clone the repository Through commands line:git clone Your Own path
 
@@ -16,7 +16,7 @@ Flutter-based mobile application designed for podcast enthusiasts, offering a us
 Note: You need a working emulator or a connected real device.
 
 
-# 🎯Design Objectives
+## 🎯Design Objectives
 
 ✅ Deliver a visually appealing, clutter-free UI
 
@@ -31,33 +31,33 @@ Note: You need a working emulator or a connected real device.
 
 
 
- # 📱Screen Design Overview
+ ## 📱Screen Design Overview
  
 
-# Started Screen
+## Started Screen
 ![alt text](ScreenShout/image1.png)
 
 
 
-# Explore  & Main Navigation Screen
+## Explore  & Main Navigation Screen
 
 ![alt text](ScreenShout/image2.png)
 
 
-# Author Music Screen
+## Author Music Screen
 
 ![alt text](ScreenShout/image3.png)
 
 
-# Library Screen
+## Library Screen
 
 
 ![alt text](ScreenShout/image4.png)
 
-# Profile  Screen
+## Profile  Screen
 
 ![alt text](ScreenShout/image5.png)
 
-# Logout  Alert
+## Logout  Alert
 
 ![alt text](ScreenShout/image6.png)
