@@ -1,57 +1,72 @@
-# 🎧 Podkes App
+# ⚫Podkes-App 
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
-
-## 📌 Objective
-
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+A beautiful Flutter app for listening to podcasts and music
 
 ---
 
-## 🎨 Figma UI Design
+## Screenshots
 
-> Explore and reference the design files below:
+![App Screenshot](podkes_app/assets/screenshots/1.png)
+![App Screenshot](podkes_app/assets/screenshots/2.png)
+![App Screenshot](podkes_app/assets/screenshots/3.png)
+![App Screenshot](podkes_app/assets/screenshots/4.png)
+![App Screenshot](podkes_app/assets/screenshots/5.png)
+![App Screenshot](podkes_app/assets/screenshots/6.png)
+![App Screenshot](podkes_app/assets/screenshots/7.png)
+![App Screenshot](podkes_app/assets/screenshots/8.png)
+![App Screenshot](podkes_app/assets/screenshots/9.png)
+![App Screenshot](podkes_app/assets/screenshots/10.png)
+![App Screenshot](podkes_app/assets/screenshots/11.png)
 
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
 
 
----
-
-## 🔧 Key Features to Implement
-
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
-
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
-
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
 
 ---
 
-## 📂 Submission Guidelines
+##  Features
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
-
----
-
-## ⏳ Deadline
-
-> Submit by **[May 8]** before **10:00 AM**
+- Display albums 🎶
+- Listen to the podcast 🎶
+- Customize a playlist 🎶
+- Bottom navigation bar.
+- Smooth and responsive UI design.
 
 ---
 
-## ✨ Reminder
+## Tech Stack
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
+- Flutter
+- Dart
 
 ---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ahmed-Almansour99/Podkes-App.git
+
+cd Podkes-App
+
+cd podkes_app
+
+flutter pub get
+
+flutter run
+```
+
+
+## How to Use
+Launch the app.
+
+Browse through the list of popular Podcast.
+Listen to the most popular Podcast now
+
+
+
+## Author
+
+github : Ahmed-Almansour99
+ 
 
