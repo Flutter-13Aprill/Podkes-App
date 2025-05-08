@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:music/controllers/home_controller.dart';
 import 'package:music/widgets/navbar_widget/navBar_widget.dart';
 import 'package:music/widgets/profile_widgets/card_profile_widget.dart';
+import 'package:music/widgets/shimmer_widget/shimmer_avatar.dart';
 
-class ProfileView extends StatelessWidget {
+class ProfileView extends StatefulWidget {
   const ProfileView({
     super.key,
     required this.controller,
@@ -11,7 +12,23 @@ class ProfileView extends StatelessWidget {
   });
   final HomeController controller;
   final Function refresh;
+  
+  @override
+  State<ProfileView> createState() => _ProfileViewState();
+}
 
+class _ProfileViewState extends State<ProfileView> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Future.delayed(Duration(seconds: 2),(){
+      widget.controller.isLoadingAvatar=false;
+      setState(() {
+        
+      });;
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,8 +38,8 @@ class ProfileView extends StatelessWidget {
 
         leading: IconButton(
           onPressed: () {
-            controller.currentPageIndex = 0;
-            refresh();
+            widget.controller.currentPageIndex = 0;
+            widget.refresh();
             Navigator.pop(context);
           },
           icon: Image.asset(width: 21, height: 32, "assets/icons/vector.png"),
@@ -35,7 +52,7 @@ class ProfileView extends StatelessWidget {
         ),
         actions: [SizedBox(width: 50)],
       ),
-      bottomNavigationBar: navBarWidget(controller, refresh, context),
+      bottomNavigationBar: navBarWidget(widget.controller, widget.refresh, context),
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -43,7 +60,7 @@ class ProfileView extends StatelessWidget {
           children: [
             SizedBox(height: 40),
 
-            CircleAvatar(
+           widget.controller.isLoadingAvatar? shimmerAvatarWidget() : CircleAvatar(
               minRadius: 80,
 
               backgroundColor: Color.fromRGBO(37, 40, 54, 1),
@@ -84,7 +101,8 @@ class ProfileView extends StatelessWidget {
                   cardProfileWidget(
                     bgColor: Color.fromRGBO(236, 79, 60, 1),
                     iconPath: 'assets/icons/Logout.png',
-                    text: 'Logout',whitDivider: false
+                    text: 'Logout',
+                    whitDivider: false,
                   ),
                 ],
               ),

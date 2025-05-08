@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music/models/music_model.dart';
 import 'package:music/widgets/library_widget/card_playlist_widget.dart';
-
 Widget containerPlaylistWidget({ required bool canCreate}) {
   // List<MusicModel> playList=listOfMusic;
   return Align(

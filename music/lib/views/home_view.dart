@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:music/controllers/home_controller.dart';
 import 'package:music/models/music_model.dart';
+import 'package:music/widgets/shimmer_widget/shimmerCardMusicWidget.dart';
 import 'package:music/views/details_music_view.dart';
+import 'package:music/widgets/home_widgets/card_music_widget.dart';
 import 'package:music/widgets/navbar_widget/navBar_widget.dart';
 import 'package:music/widgets/home_widgets/leading_home_widget.dart';
 
@@ -15,12 +17,21 @@ class HomeView extends StatefulWidget {
 class _HomeScreenState extends State<HomeView> {
   // Initialize controller
   final HomeController controller = HomeController();
-  refresh(){
-    setState(() {
-      
+  refresh() {
+    setState(() {});
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(Duration(seconds: 2), () {
+      controller.isLoading=false;
+      setState(() {
+        print(controller.isLoading);
+      });
     });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +45,6 @@ class _HomeScreenState extends State<HomeView> {
           ),
         ),
         actions: [
-          
           Container(
             margin: const EdgeInsets.only(right: 31),
             child: Image.asset(
@@ -46,8 +56,7 @@ class _HomeScreenState extends State<HomeView> {
         ],
         backgroundColor: const Color(0xff201D2B),
       ),
-      bottomNavigationBar: navBarWidget(controller, refresh,context)
-      ,
+      bottomNavigationBar: navBarWidget(controller, refresh, context),
       // navBarWidget(controller,reFresh),
       drawer: const Drawer(child: Text("data")),
       backgroundColor: const Color(0xff201D2B),
@@ -104,11 +113,11 @@ class _HomeScreenState extends State<HomeView> {
                   mainAxisSpacing: 12,
                   childAspectRatio: 0.8,
                 ),
-                itemCount: controller.musicListCard.length,
+                itemCount: listOfMusic.length,
                 itemBuilder: (BuildContext context, index) {
                   return InkWell(
                     onTap: () {
-                      Navigator.push(
+                    controller.isLoading? null : Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder:
@@ -117,7 +126,7 @@ class _HomeScreenState extends State<HomeView> {
                         ),
                       );
                     },
-                    child: controller.musicListCard[index],
+                    child: controller.isLoading?shimmerCardMusicWidget(): cardMusicWidget(listOfMusic[index]),
                   );
                 },
               ),

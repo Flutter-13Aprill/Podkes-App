@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:music/controllers/home_controller.dart';
 import 'package:music/models/music_model.dart';
+import 'package:music/widgets/shimmer_widget/shimmerCardMusicWidget.dart';
 
 //  pass all date [we will take it from music model ]
 Widget cardMusicWidget(MusicModel music) {
@@ -23,11 +25,9 @@ Widget cardMusicWidget(MusicModel music) {
         Text(
           music.title,
           style: TextStyle(
-            
             fontSize: 13,
             fontWeight: FontWeight.bold,
             color: Colors.white,
-            
           ),
         ),
         SizedBox(height: 4),
