@@ -1,57 +1,59 @@
-# 🎧 Podkes App
+# Pdkes App UI
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
+The UI design of a great podcast/music listening app.
 
-## 📌 Objective
+## Screenshots
 
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+### Onboarding Screen  
+![Onboarding Screen](Screenshots/onboarding.png)
 
----
+### Profile Screen
+![Profile Tab](Screenshots/profile.png)
 
-## 🎨 Figma UI Design
+## Features
 
-> Explore and reference the design files below:
+- **Onboarding Flow**  
+  - Visually appealing welcome screens to introduce the app's features and value proposition.
 
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+- **Home Screen with Drawer**  
+  - A side drawer for easy navigation to settings, profile, and more.
+  - User profile picture displayed on the top right for quick identity reference.
 
+- **Podcast Categories & Items**  
+  - Scrollable sections for browsing Podcast categories.
+  - Smooth UI transitions and structured layout for easy food discovery.
+**Podcast Categories & Items**  
+- Smooth Profile design that aims for usability and a clean look. 
 
----
+## Tech Stack
 
-## 🔧 Key Features to Implement
+- **Flutter** (latest stable version)  
+- **Dart**
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
+## Installation
 
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+2. Navigate to the project directory:
+    ```bash
+    cd your-repo-name
+3. Install dependencies:
+    ```bash
+    flutter pub get
+4. Run the app:
+    ```bash
+    flutter run
+## How to use:
+- Launch the app to view the onboarding screens.
 
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+- Once logged in, access the Home Screen with categorized Podcast listings.
 
----
+- Tap the bottom navigation bar icons for navigation and settings.
 
-## 📂 Submission Guidelines
+- Click the podcast and categories you want to listen to.
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+## *Solaiman Al-Dokhail*
 
----
-
-## ⏳ Deadline
-
-> Submit by **[May 8]** before **10:00 AM**
-
----
-
-## ✨ Reminder
-
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
-
----
+### Note: I slept while working mistakingly so I couldn't finish it or wake up early and finish it since my phone died. I hope that you understand🙏🏻❤️.
 
