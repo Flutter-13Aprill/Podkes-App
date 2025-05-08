@@ -1,57 +1,104 @@
-# 🎧 Podkes App
+# Podkes App 🎧
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
-
-## 📌 Objective
-
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+### Overview 👀
+**Podkes App** is a podcast application developed as part of a Flutter bootcamp. The project focuses on building a visually appealing and interactive platform for podcast lovers. It offers smooth navigation, efficient UI performance, and an engaging user experience.
 
 ---
 
-## 🎨 Figma UI Design
+### Design Prototype 🎨
 
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
-
+Check out the UI design on Figma:
+[🔗 View on Figma](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App--Community-?node-id=0-1&p=f)
 
 ---
 
-## 🔧 Key Features to Implement
+### Output 📱
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
-
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
-
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+https://github.com/user-attachments/assets/c04629e7-0298-49c9-a4c2-e4721b9e5fb4
 
 ---
 
-## 📂 Submission Guidelines
+### Features ⭐️
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+- 🎙️ Look through podcast lists and find new shows
+- 🔍 Search for any podcast you like
+- ▶️ Play podcast episodes easily
+- 📚 Check your library, playlists, and recent shows
+- 👤 View and update your profile
+- 🎨 Enjoy a smooth and modern UI design.
+---
+
+### Tech Stack 💻
+
+- **Flutter**
+- **Dart**
 
 ---
 
-## ⏳ Deadline
+### Installation 🛠️
 
-> Submit by **[May 8]** before **10:00 AM**
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/lamyaalsuhaibani/Podkes-App.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+   cd Podkes-App
+```
+
+3. Install dependencies:
+
+```bash
+   flutter pub get
+```
+
+4. Run the app:
+
+```bash
+   flutter run
+```
 
 ---
 
-## ✨ Reminder
+### Folder Structure 🔨
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
+```
+ lib
+   ├── extensions
+   │   └── screens
+   │       └── get_size_screen.dart
+   ├── main.dart
+   ├── models
+   │   ├── albums_content.dart
+   │   └── onboarding_content.dart
+   ├── screens
+   │   ├── bottom_navigation.dart
+   │   ├── explore_screen.dart
+   │   ├── library_screen.dart
+   │   ├── onboarding_screens.dart
+   │   └── profile_screen.dart
+   └── widgets
+       ├── albums.dart
+       └── catogry.dart
+```
 
 ---
+
+### How to Use 📲
+
+1. Open the app and explore different podcasts
+2. Use the search bar to find a podcast
+3. Tap to listen to an episode
+4. Go to the Library to see your saved and recent shows
+5. Click Profile to update your information
+
+---
+
+### Author👩‍💻
+**Lamya Alsuhaibani**  
+[🌐 Portfolio Website](https://picayune-mouth-ade.notion.site/Lamya-Alsuhaibani-310c29eda5ba40638fa895968d3f630d "My Portfolio Website")  
+[💼 LinkedIn](https://www.linkedin.com/in/lamya-a-alsuhaibani/ "My LinkedIn")
 
