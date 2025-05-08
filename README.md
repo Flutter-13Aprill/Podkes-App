@@ -91,8 +91,11 @@ lib/
 │   │   ├── card_profile_widget.dart
 │   │   └── showLogoutDialog_widget.dart
 │   └── shimmer_widgets/
-│       ├── shimmerCardMusicWidget.dart
-│       └── shimmer_avatar.dart
+│   │   ├── shimmerCardMusicWidget.dart
+│   │   └── shimmer_avatar.dart
+│   ├──circleDot_widget.dart
+│   ├──mainButton_widget.dart
+│   └─ contanier_image.dart
 │──MainApp.dart
 └── main.dart
 plaintext```
