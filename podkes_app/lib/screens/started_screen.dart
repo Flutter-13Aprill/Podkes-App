@@ -9,6 +9,10 @@ class StartedScreen extends StatefulWidget {
   @override
   State<StartedScreen> createState() => _StartedScreenState();
 }
+// A stateful screen that displays an onboarding flow for the app.
+// It includes a `PageView` for swiping through 3 pages of content with images and descriptions.
+// The screen has a "Next" button to navigate through pages or proceed to the main screen when the last page is reached.
+// It uses `SmoothPageIndicator` to show page navigation dots and displays custom content widgets (`ContentOfPage`) for each page.
 
 class _StartedScreenState extends State<StartedScreen> {
   final PageController pageController = PageController();

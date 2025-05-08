@@ -5,6 +5,11 @@ class LibraryScreen extends StatelessWidget {
   final int? previousIndex;
   const LibraryScreen({super.key, this.onTabChange, this.previousIndex});
 
+  // A stateless screen that displays the user's recently played podcasts and playlists.
+  // It uses a dark-themed UI with custom `AppBar` and back navigation, and is divided into two sections:
+  // "Played recently" and "Your playlisty", both using `Card.filled` containers and `ListTile` widgets.
+  // The screen also incorporates local image assets and consistent padding for a clean design.
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

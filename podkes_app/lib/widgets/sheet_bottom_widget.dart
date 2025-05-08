@@ -1,5 +1,19 @@
 import 'package:flutter/material.dart';
 
+// This widget represents a bottom sheet UI for playing podcasts, showing the current playing podcast details.
+//
+// - `imagePath`: Path to the podcast image asset (used for the podcast cover).
+// - `personName`: The name of the podcast host/creator.
+// - `podcastName`: The title of the podcast being played.
+//
+// The widget layout includes:
+// - A header section with "Now Playing" text and a back button.
+// - The podcast image (cover art) centered in the UI.
+// - The podcast name and host name displayed beneath the image.
+// - A sound wave image to represent audio activity.
+// - A progress bar showing the current time vs the total duration of the podcast.
+// - Playback controls including skip, play/pause, and next buttons.
+
 class SheetBottomWidget extends StatelessWidget {
   final String podcastName;
   final String personName;

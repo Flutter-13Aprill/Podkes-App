@@ -9,6 +9,10 @@ class ProfileScreen extends StatefulWidget {
 
   const ProfileScreen({super.key, this.onTabChange, this.previousIndex});
 
+  // A  screen that represents the user's profile.
+  // It includes a profile picture (with shimmer loading effect), "Change Profile" text,
+  // The screen uses custom `ListtileWidget` and `ShimmerListtileWidget` for each setting item.
+  // It also includes a dialog for logging out and handling navigation with a back button.
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
 }

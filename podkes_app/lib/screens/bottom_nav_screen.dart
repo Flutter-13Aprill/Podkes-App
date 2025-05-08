@@ -11,6 +11,12 @@ class BottomNavScreen extends StatefulWidget {
   State<BottomNavScreen> createState() => _BottomNavScreenState();
 }
 
+// BottomNavScreen is the main screen of the app that uses a BottomNavigationBar with three tabs: Discover, Library, and Profile.
+// It tracks both the current and previous selected tab using `currentIndex` and `previousIndex`.
+// A helper function `changeTabIndex` updates the current tab and stores the previous one, allowing screens to react accordingly.
+// The `pages` list holds the screen widgets corresponding to each tab, and the Library/Profile screens receive navigation info via parameters.
+// The body of the Scaffold displays the currently active screen based on the selected tab.
+
 class _BottomNavScreenState extends State<BottomNavScreen> {
   void changeTabIndex(int newIndex) {
     setState(() {

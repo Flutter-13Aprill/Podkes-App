@@ -14,6 +14,13 @@ class ExploreScreen extends StatefulWidget {
   State<ExploreScreen> createState() => _ExploreScreenState();
 }
 
+// ExploreScreen is a main screen in the app that provides a user-friendly interface for discovering trending podcasts.
+// It features a custom AppBar with a drawer and notification icon, a horizontal scrollable category filter with a shimmer loading effect,
+// The screen uses custom widgets such as `PodcastThumbnailWidget`, `SheetBottomWidget`, and `ShimmerPodcastThumbnailWidget`
+// to encapsulate UI logic and maintain clean, reusable code.
+// Tapping a podcast opens a modal bottom sheet with more details.
+// A simulated loading state is shown for 3 seconds using shimmer placeholders before displaying real content.
+// Users can also navigate to Profile and Library screens via the side drawer.
 class _ExploreScreenState extends State<ExploreScreen> {
   int clickedIndex = -1;
   bool isLoading = true;

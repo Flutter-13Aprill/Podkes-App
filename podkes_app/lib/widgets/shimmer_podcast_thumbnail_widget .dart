@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
+// This widget creates a shimmer effect for a podcast thumbnail placeholder.
+// - The shimmer effect is applied to a column containing a placeholder image, title, and subtitle of a podcast.
+// - The shimmer effect uses `Shimmer.fromColors` with a custom base and highlight color for glowing animation.
+// - The image, title, and subtitle placeholders are created using `Container` widgets with fixed sizes and grey color to simulate the loading state.
+
 class ShimmerPodcastThumbnailWidget extends StatelessWidget {
   const ShimmerPodcastThumbnailWidget({super.key});
 

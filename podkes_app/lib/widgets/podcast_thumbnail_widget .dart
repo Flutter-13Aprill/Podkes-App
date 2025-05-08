@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
+// A custom widget that displays a podcast thumbnail, title, and subtitle.
+//
+// - `image`: The path to the podcast image asset.
+// - `title`: The title of the podcast.
+// - `subtitle`: The subtitle or description of the podcast, often indicating additional details like date or episode info.
+//
+// The widget is structured using a `Column` that contains an image, the title, and the subtitle of the podcast.
+
 class PodcastThumbnailWidget extends StatelessWidget {
   final String image;
   final String title;
