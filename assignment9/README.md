@@ -4,6 +4,8 @@
 
 A music not only for your ear but for your MIND 🧠🤯!!!
 
+an App for podcasts mainly and for musics artist it has a lot of features that will be coverd The UI developed to be  user friendly and even when the UI is Laggin it will be shimmered !!!
+the user can skip or change the current audion also and display the trending podcasters or artists
 
 
 ---
