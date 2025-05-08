@@ -1,25 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:music/models/music_model.dart';
+import 'package:music/widgets/contanier_image.dart';
 
-Widget cardPlaylisWidget(MusicModel music,{canCreate=false}) {
+Widget cardPlaylisWidget(MusicModel music, {canCreate = false}) {
   return ListTile(
-    leading: Container(
-      height: 54,
+    leading: containerImage(
+      imageCoverPath: music.imageCoverPath,
+      bgColor:  music.bgColor,
       width: 54,
-      // margin: EdgeInsets.only(bottom: 12),
-      // padding: EdgeInsets.symmetric(horizontal: 20),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(4),
-        border: Border.all(
-          color: canCreate ? Color.fromRGBO(196, 196, 196, 1) :  music.bgColor ,
-          width: 2
-        ),
-        color:  music.bgColor ,
-        image: DecorationImage(
-          alignment: Alignment.center,
-          image: AssetImage(music.imageCoverPath),
-        ),
-      ),
+      higth: 54,
+      canCreate: canCreate, withScale: false,
     ),
     title: Text(
       music.pulisher,

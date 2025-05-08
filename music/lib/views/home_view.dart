@@ -27,7 +27,6 @@ class _HomeScreenState extends State<HomeView> {
     Future.delayed(Duration(seconds: 2), () {
       controller.isLoading=false;
       setState(() {
-        print(controller.isLoading);
       });
     });
   }
@@ -57,7 +56,6 @@ class _HomeScreenState extends State<HomeView> {
         backgroundColor: const Color(0xff201D2B),
       ),
       bottomNavigationBar: navBarWidget(controller, refresh, context),
-      // navBarWidget(controller,reFresh),
       drawer: const Drawer(child: Text("data")),
       backgroundColor: const Color(0xff201D2B),
 
@@ -126,7 +124,7 @@ class _HomeScreenState extends State<HomeView> {
                         ),
                       );
                     },
-                    child: controller.isLoading?shimmerCardMusicWidget(): cardMusicWidget(listOfMusic[index]),
+                    child:controller.shimmerOrCard(index),
                   );
                 },
               ),

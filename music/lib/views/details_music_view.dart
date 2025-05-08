@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music/models/music_model.dart';
+import 'package:music/widgets/contanier_image.dart';
 
 class DetailsMusicView extends StatelessWidget {
   const DetailsMusicView({super.key, required this.music});
@@ -33,20 +34,12 @@ class DetailsMusicView extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              height: 280,
+            containerImage(
+              imageCoverPath: music.imageCoverPath,
+              bgColor: music.bgColor,
               width: double.infinity,
-              margin: EdgeInsets.only(bottom: 24),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(4),
-                color: music.bgColor,
-                image: DecorationImage(
-                  // fit: BoxFit.values[4],
-                  scale: 0.6,
-                  alignment: Alignment.bottomCenter,
-                  image: AssetImage(music.imageCoverPath),
-                ),
-              ),
+              higth: 280,
+              withScale: true,
             ),
 
             Text(
