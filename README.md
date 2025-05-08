@@ -1,57 +1,53 @@
 # 🎧 Podkes App
+---
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
+## 📖 Description
 
-## 📌 Objective
+Podkes-App is a beautifully crafted Flutter application designed to deliver a clean and immersive podcast listening experience.
+It features modern UI components like waveform visualization, intuitive playback controls, and elegant timers that simulate a real-world podcast player.
+---
 
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+## 🖼️ UI Preview
+
+Podkes App UI:  
+
+https://github.com/user-attachments/assets/15ff787d-197f-4954-a1e9-4a82f0ad4230
+---
+
+## 🧠 Features
+
+- 🧭 **Drawer Navigation** – for quick access to other app sections  
+- 🍔 **TabBar with icons** – browse food categories like Burgers, Pizza, Chicken  
+- 📸 **PageView** – swipeable featured food cards with dynamic highlighting  
+- ⭐ **Custom Rating** – show star ratings for each product  
+- 🛒 **AlertDialog** – confirm before adding item to cart  
+- 📦 **BottomSheet** – display a clean cart summary with total and checkout  
+- 🧊 **Shimmer Effect** – simulate data loading animation  
+- 🧼 Clean layout, gradients, and elevation for visual depth
 
 ---
 
-## 🎨 Figma UI Design
+## 🛠️ Tech Stack
 
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
-
+- **Flutter** (latest stable version)  
+- **Dart**
 
 ---
 
-## 🔧 Key Features to Implement
+## 📦 Packages Used
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
-
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
-
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+`google_fonts` – Apply custom fonts like Poppins and Roboto from Google Fonts  
+`smooth_page_indicator` – Add animated indicators for the `PageView`  
+`flutter_svg` – Render SVG icons and category images  
+`shimmer` – Show skeleton loading UI for profile and product cards
 
 ---
 
-## 📂 Submission Guidelines
+## 🚀 How to Use
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
-
+- Run `flutter pub get` to fetch dependencies.
+- Use `flutter run` to launch the app on an emulator or physical device.
 ---
-
-## ⏳ Deadline
-
-> Submit by **[May 8]** before **10:00 AM**
-
----
-
-## ✨ Reminder
-
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
-
----
-
+## Author
+- Name:Wafa Alsibyani
+- Github: https://github.com/Wafaa-20/Podkes-App.git
