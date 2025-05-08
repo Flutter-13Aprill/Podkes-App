@@ -24,7 +24,7 @@ A music not only for your ear but for your MIND 🧠🤯!!!
 . 
 - 🧾 **Music for your Mind AND Ear** – you will be pleased by the content of the app and it's diversity between the podcaster and the artists.
 
-<img src = "assets/github_images/yumme_dance.gif" alt = "yumme - gif"> 
+<img src = "assets/github_images/yume_dance.gif" alt = "yumme - gif"> 
 ---
 
 ## 💻 Tech
