@@ -1,4 +1,4 @@
-#Podkes App 🎧
+# Podkes App 🎧
 
 ### Overview 👀
 **Podkes App** is a podcast application developed as part of a Flutter bootcamp. The project focuses on building a visually appealing and interactive platform for podcast lovers. It offers smooth navigation, efficient UI performance, and an engaging user experience.
@@ -14,6 +14,7 @@ Check out the UI design on Figma:
 
 ### Output 📱
 
+https://github.com/user-attachments/assets/c04629e7-0298-49c9-a4c2-e4721b9e5fb4
 
 ---
 
