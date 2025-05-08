@@ -1,57 +1,79 @@
 # 🎧 Podkes App
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
+### Tuwaiq Academy Flutter Bootcamp
 
-## 📌 Objective
+### 📘 Introduction
 
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+The goal of this project is to design and implement user interfaces for a podcast-style app UI using Flutter. The UI will be built by closely following a reference design provided via Figma [Podkes App Design](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0) to practice Flutter development and improve UI design implementation skills.
 
 ---
+### 🔍 Project Preview
 
-## 🎨 Figma UI Design
-
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+<img src="pagePreview.gif" alt="Preview" width="350">
+<img src="pagePreview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
 
 
 ---
-
-## 🔧 Key Features to Implement
-
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
-
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
-
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+### ⚙️ Tech Stack
+- **Flutter**
+- **Dart**
 
 ---
+### 💻  Setup instructions 
 
-## 📂 Submission Guidelines
+ 1. Clone the repository:
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+```
+https://github.com/RemasNg1/Podkes-App
+```
+2. Navigate to the project folder:
+
+```
+cd Podkes-App/podkes_app
+```
+
+3. Install dependencies:
+```
+flutter pub get
+```
+
+ 4. Run the app:
+ ```
+ flutter run 
+ ```  
 
 ---
+### 📂 Folder Structure 
 
-## ⏳ Deadline
+```
+lib
 
-> Submit by **[May 8]** before **10:00 AM**
+
+   ├── main.dart
+   ├── widgets
+   │   ├── listtile_widget.dart
+   │   ├── podcast_thumbnail_widget.dart
+   │   ├── sheet_bottom_widget.dart
+   │   ├── shimmer_listtile_widget.dart
+   │   └── shimmer_podcast_thumbnail_widget.dart
+   └── screens
+       ├── bottom_nav_screen.dart
+       ├── explore_screen.dart
+       ├── library_screen.dart
+       ├── profile_screen.dart
+       └── started_screen.dart
+
+
+       
+```
+
 
 ---
+### 🖊️ Author
+Remas Alnugaithan
 
-## ✨ Reminder
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
 
----
+
+
 
