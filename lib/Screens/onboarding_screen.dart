@@ -1,6 +1,6 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:may6th/CustomWidgets/onboarding_view.dart';
+import 'package:may6th/CustomWidgets/OnboardingScreen/onboarding_view.dart';
 import 'package:may6th/Screens/bottom_navigation.dart';
 import 'package:may6th/data/screen_extension.dart';
 
@@ -29,7 +29,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      backgroundColor: Color.fromRGBO(31, 29, 43, 1),
       floatingActionButton: SizedBox(
         height: 70,
         width: 70,
