@@ -1,57 +1,58 @@
-# 🎧 Podkes App
+![Tuwaiq Academy Logo](assets/README/tuwaiq_academy_logo.png)
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
-
-## 📌 Objective
-
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
-
----
-
-## 🎨 Figma UI Design
-
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+# Podkes
+Podkes is a sleek and visually appealing platform designed to highlight an engaging, user-friendly interface. The app offers a seamless and intuitive browsing experience, allowing users to explore various podcast categories and view podcast details through vibrant thumbnails and well-organized layouts. With a clean, modern design, the app emphasizes clarity, visual consistency, and smooth user interactions. It is purely a UI experience, with no interactivity or backend functionality, making it a perfect showcase of aesthetic and functional design principles for a podcast app.
 
 
----
 
-## 🔧 Key Features to Implement
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
+# Getting Started
+### Prerequisites
 
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
+Flutter SDK 
 
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+A code editor (such as VS Code or Android Studio)
 
----
+### Installation
+1. Clone the repository:
 
-## 📂 Submission Guidelines
+   ```
+   git clone https://github.com/2Mhd6/Podkes-App.git
+   ```
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+2. Navigate to the project directory:
 
----
+   ```
+   cd Podkes-App
+   ```
+   
+3. Install dependencies:
 
-## ⏳ Deadline
+   ```
+   flutter pub get
+   ```
 
-> Submit by **[May 8]** before **10:00 AM**
+4. Run the app:
 
----
+   ```
+   flutter run
+   ```
 
-## ✨ Reminder
+## UI Design
+Check out the UI design on Figma: 🔗 [View on Figma](https://www.figma.com/design/kK9FrFWykBDgTOYeZYHx2u/Podcast-Mobile-App--Community-?node-id=0-1&p=f&t=FAlzuohbssSTxUL1-0)
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
+## Output
+<img src = "assets/README/Podkes - Walkthrough.gif" alt = "Podkes - Walkthrough" width = "30%" height ="30%">
 
----
+
+
+## Languages & Frameworks
+
+**Dart**
+
+**Flutter**
+
+## Created By
+
+[**Mohammed S. Alshammari**](https://www.linkedin.com/in/mohammedsalshammari/)
 
