@@ -1,57 +1,77 @@
-# 🎧 Podkes App
-
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
-
-## 📌 Objective
-
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
-
----
-
-## 🎨 Figma UI Design
-
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+![image alt](https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png)
 
 
----
+# 📘  podkes pp (UI) – Overview
 
-## 🔧 Key Features to Implement
+podcast platform with a clean and modular UI, focusing on user interaction and personalized content.
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
 
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
 
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+## 📷 Screenshots 
 
----
+![image alt](https://github.com/azizotbb/Podkes-App/blob/5f7cf5d267fb259407fe4b4040773a9ac98f29ce/img.jpg)
 
-## 📂 Submission Guidelines
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
 
----
+## 🎥 Gif
 
-## ⏳ Deadline
+![image alt](https://github.com/azizotbb/Podkes-App/blob/5f7cf5d267fb259407fe4b4040773a9ac98f29ce/gif.gif)
 
-> Submit by **[May 8]** before **10:00 AM**
 
----
 
-## ✨ Reminder
+## 🔍 Features
 
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
+- Responsive Design: Mobile-friendly layout for a seamless experience across devices.
+- Interactive Cards: Displays content in easy-to-navigate cards with images and text.
+- Profile Options: Includes settings for theme, privacy, about, and logout.
+- Playlists: Users can create and view custom playlists.
+- Recently Played: Shows a list of recently played podcasts.
+- Trending Podcasts: Displays popular podcasts with navigation to the playing screen.
 
----
 
+
+##  🎨 Figma UI:
+https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App--Community-?node-id=0-1&p=f&t=ENG4tkq1BrRic7UK-0
+
+
+
+## Tech Stack
+
+- Flutter (latest version) 
+- Dart
+
+
+
+## Installation
+
+1.  Clone the repository:
+
+    `https://github.com/azizotbb/Podkes-App.git` 
+
+2.  Navigate to the project folder:
+
+    `cd podkes_app` 
+
+3.  Install dependencies:
+
+    `flutter pub get` 
+
+4.  Run the app:
+
+    `flutter run`
+
+
+
+
+## Folder Structure
+
+    lib/
+    ├── screens/
+    ├── widgets/
+    └── main.dart
+    
+
+    
+## ✨ Author
+
+- AbdulAziz Alotaibi
