@@ -1,57 +1,40 @@
 # 🎧 Podkes App
+A clean and minimal user interface for a mobile app, designed using Flutter.
 
-![Podkes Screenshot](https://paper-attachments.dropboxusercontent.com/s_CE298A44AC4BC1486B73C510A9E8123E7FE534010D93FBA37CE311619E6BA986_1739354051306_Screenshot+1446-08-13+at+12.47.45PM.png)
+![1 (1)](https://github.com/user-attachments/assets/975924f4-6f84-4c85-8c08-d4bb9c2a20ec)
 
-## 📌 Objective
+## Features
 
-Your task is to replicate the **Podkes app UI** using **Flutter**.  
-The app should provide a visually appealing and interactive podcast experience with **smooth navigation** and **efficient UI performance**.
+- Modern layout with bottom navigation
 
----
-
-## 🎨 Figma UI Design
-
-> Explore and reference the design files below:
-
-- [Figma File](https://www.figma.com/design/RqcuinLb0RMD1yyZWS8ahR/Podcast-Mobile-App-(Community)?node-id=0-1&p=f&t=e3UCoP5bxaWjjdT4-0)
+- Organized screens: start screen, Discover, Library, Profile
 
 
----
+## Tech Stack 
+- Flutter (latest version) 
+- Dart
 
-## 🔧 Key Features to Implement
 
-### 1️⃣ BottomNavigationBar (App Navigation)
-- Tabs: **Discover**, **Library**, **Profile**
-- Active tab should be clearly **highlighted**
+## Installation 
+1.	Clone the repository: 
+git clone https://github.com/shtwaijri/Podkes-App.git
 
-### 2️⃣ Shimmer Effect (Loading UI)
-- Add **shimmer effects** for:
-  - Podcast thumbnails
-  - User data
-- Enhances UI performance and **loading experience**
+2.	Navigate to the project folder: 
+cd  Podkes-App
 
-### 3️⃣ Dialogs and Sheets
-- Use `AlertDialog` for **logout confirmation**
+3. Install dependencies: 
+flutter pub get 
 
----
+4.	Run the app: 
+flutter run 
 
-## 📂 Submission Guidelines
+## How to Use 
+- Open the app. 
+- Browse through available screens. 
 
-✅ Upload your project to **GitHub** with a **well-documented `README.md`**  
-✅ Include **screenshots** or **screen recordings** of the working app  
-✅ Follow **clean code** practices and maintain **project structure**
+## Author 
+- Shatha Altwaijri 
 
----
 
-## ⏳ Deadline
 
-> Submit by **[May 8]** before **10:00 AM**
-
----
-
-## ✨ Reminder
-
-> _"Keep coding, keep creating! Great UI makes great experiences." 🚀_
-
----
 
