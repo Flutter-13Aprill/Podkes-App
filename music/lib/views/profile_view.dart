@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:music/controllers/home_controller.dart';
 import 'package:music/widgets/navbar_widget/navBar_widget.dart';
 import 'package:music/widgets/profile_widgets/card_profile_widget.dart';
+import 'package:music/widgets/profile_widgets/showLogoutDialog_widget.dart';
 import 'package:music/widgets/shimmer_widget/shimmer_avatar.dart';
 
 class ProfileView extends StatefulWidget {
@@ -98,11 +99,16 @@ class _ProfileViewState extends State<ProfileView> {
                     iconPath: 'assets/icons/Info Circle.png',
                     text: 'About',
                   ),
-                  cardProfileWidget(
-                    bgColor: Color.fromRGBO(236, 79, 60, 1),
-                    iconPath: 'assets/icons/Logout.png',
-                    text: 'Logout',
-                    whitDivider: false,
+                  InkWell(
+                    onTap: () {
+                      showLogoutDialog(context);
+                    },
+                    child: cardProfileWidget(
+                      bgColor: Color.fromRGBO(236, 79, 60, 1),
+                      iconPath: 'assets/icons/Logout.png',
+                      text: 'Logout',
+                      whitDivider: false,
+                    ),
                   ),
                 ],
               ),
